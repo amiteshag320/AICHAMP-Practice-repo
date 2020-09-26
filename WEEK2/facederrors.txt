@@ -1,0 +1,15 @@
+All the errors I faced 
+
+ile "<ipython-input-7-026af6fad950>", line 1
+    genre = soup.find("ul",class="nav.nav-list")
+                           ^
+SyntaxError: invalid syntax
+
+AttributeError                            Traceback (most recent call last)
+<ipython-input-4-13bcd76d6cf0> in <module>
+      1 product_info = soup.find("div",class_="col-sm-6 product_main")
+----> 2 book_name = product_info.find_all("h1")
+
+AttributeError: 'NoneType' object has no attribute 'find_all'
+
+
