@@ -13,3 +13,4 @@ AttributeError                            Traceback (most recent call last)
 AttributeError: 'NoneType' object has no attribute 'find_all'
 
 
+There were more errors but i forgot to note it down .
